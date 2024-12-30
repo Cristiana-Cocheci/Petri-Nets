@@ -3,38 +3,48 @@ package main
 import (
 	"Petri-Nets/src"
 	"fmt"
+	"time"
 )
 
 func main() {
 	fmt.Println("Petri Nets for Concurrent Programming")
 
-	exampleNet := src.Net{}
-	exampleNet.NewNet()
+	net := src.Net{}
+	net.NewNet()
 	// Place nodes
-	exampleNet.AddPlace("p1", 1)
-	exampleNet.AddPlace("p2", 0)
-	exampleNet.AddPlace("p3", 0)
-	exampleNet.AddPlace("p4", 5)
+	net.AddPlace("p1", 10)
+	net.AddPlace("p2", 12)
+	net.AddPlace("p3", 34)
+	net.AddPlace("p4", 0)
+	net.AddPlace("p5", 0)
+	net.AddPlace("p6", 0)
+	net.AddPlace("p7", 0)
 	// Transition nodes
-	exampleNet.AddTransition("t1")
-	exampleNet.AddTransition("t2")
-	exampleNet.AddTransition("t3")
+	net.AddTransition("t1")
+	net.AddTransition("t2")
+	net.AddTransition("t3")
+	net.AddTransition("t4")
+	net.AddTransition("t5")
 	// Place -> Transition edges
-	exampleNet.AddEdge("p1", "t1", 1)
-	exampleNet.AddEdge("p1", "t2", 3)
-	exampleNet.AddEdge("p2", "t2", 1)
-	exampleNet.AddEdge("p3", "t1", 1)
-	exampleNet.AddEdge("p4", "t3", 2)
+	net.AddEdge("p1", "t1", 3)
+	net.AddEdge("p2", "t1", 2)
+	net.AddEdge("p3", "t2", 10)
+	net.AddEdge("p4", "t3", 2)
+	net.AddEdge("p4", "t4", 1)
+	net.AddEdge("p5", "t4", 1)
+	net.AddEdge("p6", "t5", 3)
 	// Transition -> Place edges
-	exampleNet.AddEdge("t1", "p2", 1)
-	exampleNet.AddEdge("t2", "p3", 1)
-	exampleNet.AddEdge("t3", "p2", 1)
-	exampleNet.AddEdge("t3", "p3", 0)
+	net.AddEdge("t1", "p4", 1)
+	net.AddEdge("t2", "p4", 1)
+	net.AddEdge("t2", "p5", 2)
+	net.AddEdge("t4", "p7", 2)
+	net.AddEdge("t3", "p6", 3)
+	net.AddEdge("t5", "p1", 3)
 
-	exampleNet.PrintNet()
+	net.PrintNet()
 
-	exampleNet.SplitNet()
-	for _, workCluster := range exampleNet.WorkClusters {
-		workCluster.PrintWorkCluster()
-	}
+	net.Run()
+	<-time.After(3 * time.Second)
+	net.PrintNet()
+
 }

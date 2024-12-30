@@ -48,7 +48,6 @@ func (net *Net) NewNet() {
 	net.InEdges = make(map[string][]WeightedTransitionEdge)
 	net.ReverseInEdges = make(map[string][]WeightedPlaceEdge)
 	net.OutEdges = make(map[string][]WeightedPlaceEdge)
-	go net.checkFire()
 }
 
 func (net *Net) AddPlace(place string, tokens int) {
@@ -75,28 +74,16 @@ func (net *Net) AddEdge(from string, to string, weight int) {
 	}
 }
 
-func (net *Net) checkFire() {
-	for {
-		// check if transition can be fired (enough tokens collected in incoming places)
-		canFire := true
-		for transition, placeEdge := range net.ReverseInEdges {
-			for _, pe := range placeEdge {
-				weight := pe.Weight
-				incomingPlaces := net.Places[pe.Place]
-				if incomingPlaces.tokens < weight {
-					canFire = false
-					break
-				}
-			}
-			if canFire {
-				net.Fire(transition)
-			}
-
-		}
+func (net *Net) Run() {
+	net.SplitNet()
+	for _, workCluster := range net.WorkClusters {
+		workCluster.PrintWorkCluster()
+		go workCluster.checkFire(net)
 	}
 }
 
 func (net *Net) Fire(transition string) {
+	fmt.Printf("Fired transition %s \n", transition)
 	// remove tokens from incoming places
 	for _, pe := range net.ReverseInEdges[transition] {
 		net.Places[pe.Place].mutex.Lock()
