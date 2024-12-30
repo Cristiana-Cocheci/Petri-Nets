@@ -33,8 +33,8 @@ func main() {
 
 	exampleNet.PrintNet()
 
-	workClusters := exampleNet.SplitNet()
-	for _, workCluster := range workClusters {
+	exampleNet.SplitNet()
+	for _, workCluster := range exampleNet.WorkClusters {
 		workCluster.PrintWorkCluster()
 	}
 }

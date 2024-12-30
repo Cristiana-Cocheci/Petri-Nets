@@ -6,6 +6,7 @@ import (
 )
 
 type WeightedTransitionEdge struct {
+	// weight specifies number of tokens required to fire place->transition
 	Transition string
 	Weight     int
 }
@@ -15,6 +16,9 @@ func (edge *WeightedTransitionEdge) PrintEdge() {
 }
 
 type WeightedPlaceEdge struct {
+	// weight specifies number of tokens required to fire transition -> place
+	// weights must not be symmetric to the WeightedTransitionEdge
+	// tokens can be "lost" or "multiplied" in the transition node
 	Place  string
 	Weight int
 }
@@ -24,16 +28,18 @@ func (edge *WeightedPlaceEdge) PrintEdge() {
 }
 
 type Place struct {
-	tokens int
-	mutex  *sync.Mutex
+	// place is a node in the Petri net
+	tokens int         // number of tokens in the place at a time t
+	mutex  *sync.Mutex // mutex to lock the place while adding/removing tokens
 }
 
 type Net struct {
-	Places         map[string]*Place // holds number of current tokens
-	Transitions    map[string]struct{}
+	Places         map[string]*Place                   // holds number of current tokens
+	Transitions    map[string]struct{}                 // set of transition nodes
 	InEdges        map[string][]WeightedTransitionEdge // places -> transitions
-	ReverseInEdges map[string][]WeightedPlaceEdge
-	OutEdges       map[string][]WeightedPlaceEdge // transitions -> places
+	ReverseInEdges map[string][]WeightedPlaceEdge      // reverse directed graph of InEdges
+	OutEdges       map[string][]WeightedPlaceEdge      // transitions -> places
+	WorkClusters   []WorkCluster
 }
 
 func (net *Net) NewNet() {

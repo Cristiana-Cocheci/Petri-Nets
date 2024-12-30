@@ -54,7 +54,7 @@ func (workCluster *WorkCluster) AddTransition(transition string, net *Net) {
 	}
 }
 
-func (net *Net) SplitNet() []WorkCluster {
+func (net *Net) SplitNet() {
 	var workClusters []WorkCluster
 	var currentCluster WorkCluster
 	visitedPlaces := make(map[string]struct{})
@@ -75,5 +75,5 @@ func (net *Net) SplitNet() []WorkCluster {
 		// Add current work cluster to list
 		workClusters = append(workClusters, currentCluster)
 	}
-	return workClusters
+	net.WorkClusters = workClusters
 }
