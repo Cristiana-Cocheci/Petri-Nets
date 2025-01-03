@@ -42,6 +42,20 @@ type Net struct {
 	WorkClusters   []WorkCluster
 }
 
+func (net *Net) NewNetFromJson(jsonNet NetJson) {
+	net.NewNet()
+
+	for _, place := range jsonNet.Places {
+		net.AddPlace(place.Name, place.Tokens)
+	}
+	for _, transition := range jsonNet.Transitions {
+		net.AddTransition(transition)
+	}
+	for _, edge := range jsonNet.Edges {
+		net.AddEdge(edge.From, edge.To, edge.Weight)
+	}
+}
+
 func (net *Net) NewNet() {
 	net.Places = make(map[string]*Place)
 	net.Transitions = make(map[string]struct{})

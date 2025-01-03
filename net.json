@@ -1,0 +1,102 @@
+{
+    "places": [
+        {
+            "name" : "p1",
+            "tokens" : 10
+        },
+        {
+            "name" : "p2",
+            "tokens" : 12
+        },
+        {
+            "name" : "p3",
+            "tokens" : 34
+        },
+        {
+            "name" : "p4",
+            "tokens" : 0
+        },
+        {
+            "name" : "p5",
+            "tokens" : 0
+        },
+        {
+            "name" : "p6",
+            "tokens" : 0
+        },
+        {
+            "name" : "p7",
+            "tokens" : 0
+        }
+    ],
+    "transitions" : [
+        "t1", "t2", "t3", "t4", "t5"
+    ],
+    "edges" : [
+        {
+            "from" : "p1",
+            "to" : "t1",
+            "weight" : 3
+        },
+        {
+            "from" : "p2",
+            "to" : "t1",
+            "weight" : 2
+        },
+        {
+            "from" : "p3",
+            "to" : "t2",
+            "weight" : 10
+        },
+        {
+            "from" : "p4",
+            "to" : "t3",
+            "weight" : 2
+        },
+        {
+            "from" : "p4",
+            "to" : "t4",
+            "weight" : 1
+        },
+        {
+            "from" : "p5",
+            "to" : "t4",
+            "weight" : 1
+        },
+        {
+            "from" : "p6",
+            "to" : "t5",
+            "weight" : 3
+        },
+        {
+            "from" : "t1",
+            "to" : "p4",
+            "weight" : 1
+        },
+        {
+            "from" : "t2",
+            "to" : "p4",
+            "weight" : 1
+        },
+        {
+            "from" : "t2",
+            "to" :  "p5",
+            "weight" : 2
+        },
+        {
+            "from" : "t4",
+            "to" : "p7",
+            "weight" : 2
+        },
+        {
+            "from" : "t3",
+            "to" : "p6",
+            "weight" : 3
+        },
+        {
+            "from" : "t5",
+            "to" : "p1",
+            "weight" : 3
+        }
+    ]
+}
