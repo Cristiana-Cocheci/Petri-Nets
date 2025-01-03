@@ -3,6 +3,7 @@ package src
 import (
 	"fmt"
 	r "math/rand"
+	"slices"
 )
 
 type WorkCluster struct {
@@ -10,6 +11,7 @@ type WorkCluster struct {
 	Id          int
 	Places      map[string]struct{} // set of place nodes
 	Transitions map[string]struct{} // set of transition nodes
+	FireChannel chan struct{}       // message channel to fire if updates occur in work cluster
 }
 
 func (workCluster *WorkCluster) PrintWorkCluster() {
@@ -29,6 +31,7 @@ func (workCluster *WorkCluster) NewWorkCluster(id *int) {
 	workCluster.Id = *id
 	workCluster.Places = make(map[string]struct{})
 	workCluster.Transitions = make(map[string]struct{})
+	workCluster.FireChannel = make(chan struct{}, 1)
 	*id++
 }
 
@@ -60,7 +63,7 @@ func (net *Net) SplitNet() {
 	var workClusters []WorkCluster
 	var currentCluster WorkCluster
 	visitedPlaces := make(map[string]struct{})
-	currentId := 1
+	currentId := 0
 	for place := range net.Places {
 		_, visited := visitedPlaces[place]
 		if visited {
@@ -78,10 +81,34 @@ func (net *Net) SplitNet() {
 		workClusters = append(workClusters, currentCluster)
 	}
 	net.WorkClusters = workClusters
+	net.MatchWorkClustersToTriggeringTransitions()
+}
+
+func (net *Net) MatchWorkClustersToTriggeringTransitions() {
+	for transition := range net.Transitions {
+		for _, edge := range net.OutEdges[transition] {
+			for _, workCluster := range net.WorkClusters {
+				_, placeIsInCluster := workCluster.Places[edge.Place]
+				if placeIsInCluster && !slices.Contains(net.Transitions[transition], workCluster.Id) {
+					net.Transitions[transition] = append(net.Transitions[transition], workCluster.Id)
+				}
+			}
+		}
+	}
+	for transition := range net.Transitions {
+		fmt.Printf("Transition %s triggers work clusters: %v\n", transition, net.Transitions[transition])
+	}
+
 }
 
 func (workCluster *WorkCluster) checkFire(net *Net) {
 	for {
+		// Wait for a transition corresponding to the Work Cluster to update its tokens
+		_, ok := <-workCluster.FireChannel
+		if !ok {
+			break
+		}
+
 		var enabledTransitions []string
 
 		for transition := range workCluster.Transitions {
@@ -103,6 +130,10 @@ func (workCluster *WorkCluster) checkFire(net *Net) {
 		}
 		// For non-deterministic behaviour, pick a random transition to fire
 		if len(enabledTransitions) > 0 {
+			select {
+			case workCluster.FireChannel <- struct{}{}: // send signal to work cluster if not empty
+			default: // do nothing if channel is full
+			}
 			net.Fire(enabledTransitions[r.Int()%len(enabledTransitions)])
 		}
 	}

@@ -3,7 +3,6 @@ package main
 import (
 	"Petri-Nets/src"
 	"fmt"
-	"time"
 )
 
 func main() {
@@ -14,10 +13,10 @@ func main() {
 	net := src.Net{}
 	net.NewNetFromJson(netJson)
 
-	net.PrintNet()
+	net.PrintTokens()
 
 	net.Run()
-	<-time.After(3 * time.Second)
-	net.PrintNet()
 
+	net.CheckClosingChannel()
+	net.PrintTokens()
 }

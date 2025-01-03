@@ -3,6 +3,7 @@ package src
 import (
 	"fmt"
 	"sync"
+	"time"
 )
 
 type WeightedTransitionEdge struct {
@@ -35,11 +36,12 @@ type Place struct {
 
 type Net struct {
 	Places         map[string]*Place                   // holds number of current tokens
-	Transitions    map[string]struct{}                 // set of transition nodes
+	Transitions    map[string][]int                    // set of transition nodes -> ids of work clusters they trigger
 	InEdges        map[string][]WeightedTransitionEdge // places -> transitions
 	ReverseInEdges map[string][]WeightedPlaceEdge      // reverse directed graph of InEdges
 	OutEdges       map[string][]WeightedPlaceEdge      // transitions -> places
 	WorkClusters   []WorkCluster
+	ClosingChannel chan struct{}
 }
 
 func (net *Net) NewNetFromJson(jsonNet NetJson) {
@@ -58,10 +60,11 @@ func (net *Net) NewNetFromJson(jsonNet NetJson) {
 
 func (net *Net) NewNet() {
 	net.Places = make(map[string]*Place)
-	net.Transitions = make(map[string]struct{})
+	net.Transitions = make(map[string][]int)
 	net.InEdges = make(map[string][]WeightedTransitionEdge)
 	net.ReverseInEdges = make(map[string][]WeightedPlaceEdge)
 	net.OutEdges = make(map[string][]WeightedPlaceEdge)
+	net.ClosingChannel = make(chan struct{})
 }
 
 func (net *Net) AddPlace(place string, tokens int) {
@@ -69,7 +72,7 @@ func (net *Net) AddPlace(place string, tokens int) {
 }
 
 func (net *Net) AddTransition(transition string) {
-	net.Transitions[transition] = struct{}{}
+	net.Transitions[transition] = []int{}
 }
 
 func (net *Net) AddEdge(from string, to string, weight int) {
@@ -93,7 +96,24 @@ func (net *Net) Run() {
 	for _, workCluster := range net.WorkClusters {
 		workCluster.PrintWorkCluster()
 		go workCluster.checkFire(net)
+		workCluster.FireChannel <- struct{}{}
 	}
+	go net.CloseNet()
+}
+
+func (net *Net) CloseNet() {
+	<-time.After(5 * time.Second)
+	net.ClosingChannel <- struct{}{}
+}
+
+func (net *Net) CheckClosingChannel() {
+	<-net.ClosingChannel
+
+	for _, workCluster := range net.WorkClusters {
+		close(workCluster.FireChannel)
+	}
+
+	fmt.Println("Closing Net")
 }
 
 func (net *Net) Fire(transition string) {
@@ -109,6 +129,12 @@ func (net *Net) Fire(transition string) {
 		net.Places[pe.Place].mutex.Lock()
 		net.Places[pe.Place].tokens += pe.Weight
 		net.Places[pe.Place].mutex.Unlock()
+	}
+	for _, workCluster := range net.Transitions[transition] {
+		select {
+		case net.WorkClusters[workCluster].FireChannel <- struct{}{}: // send signal to work cluster if not empty
+		default: // do nothing if channel is full
+		}
 	}
 }
 
@@ -133,5 +159,11 @@ func (net *Net) PrintNet() {
 		for _, edge := range edges {
 			edge.PrintEdge()
 		}
+	}
+}
+
+func (net *Net) PrintTokens() {
+	for place, p := range net.Places {
+		fmt.Printf("\t%s: %d\n", place, p.tokens)
 	}
 }
