@@ -2,6 +2,8 @@ package src
 
 import (
 	"fmt"
+	"os"
+	"path/filepath"
 	"sync"
 	"time"
 )
@@ -69,6 +71,9 @@ func (net *Net) NewNet() {
 	net.OutEdges = make(map[string][]WeightedPlaceEdge)
 	net.ClosingChannel = make(chan struct{})
 	net.StateGraphChannel = make(chan string)
+	net.Timeout = 5 * time.Second
+	net.Patience = 100 * time.Millisecond
+
 }
 
 func (net *Net) WriteStateGraph() {
@@ -77,8 +82,28 @@ func (net *Net) WriteStateGraph() {
 		case transition := <-net.StateGraphChannel:
 			fmt.Printf("Fired transition %s\n", transition)
 			// If duration between transitions exceeds 0.1 seconds, close net
-		case <-time.After(100 * time.Millisecond):
+		case <-time.After(net.Patience):
 			net.ClosingChannel <- struct{}{}
+		}
+	}
+}
+
+func (net *Net) WriteStateGraphToFile() {
+	file_path, err := filepath.Abs("./data/state_graph.txt")
+	PrintError(err)
+	_ = os.Remove(file_path)
+	f, err := os.OpenFile(file_path, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	PrintError(err)
+	// Write state graph to file
+	for {
+		select {
+		case transition := <-net.StateGraphChannel:
+			_, err := f.WriteString(fmt.Sprintf("Fired transition %s\n", transition))
+			PrintError(err)
+		case <-time.After(net.Patience):
+			net.ClosingChannel <- struct{}{}
+			f.Close()
+			return
 		}
 	}
 }
@@ -115,12 +140,12 @@ func (net *Net) Run() {
 		workCluster.FireChannel <- struct{}{}
 	}
 	go net.TimeoutNet()
-	go net.WriteStateGraph()
+	go net.WriteStateGraphToFile()
 }
 
 func (net *Net) TimeoutNet() {
 	// Maximum time the net can run for
-	<-time.After(5 * time.Second)
+	<-time.After(net.Timeout)
 	net.ClosingChannel <- struct{}{}
 }
 

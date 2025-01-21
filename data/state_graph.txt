@@ -1,0 +1,16 @@
+Fired transition t1
+Fired transition t2
+Fired transition t1
+Fired transition t2
+Fired transition t4
+Fired transition t1
+Fired transition t2
+Fired transition t4
+Fired transition t3
+Fired transition t3
+Fired transition t5
+Fired transition t5
+Fired transition t1
+Fired transition t1
+Fired transition t4
+Fired transition t4
