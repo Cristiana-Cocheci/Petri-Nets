@@ -102,13 +102,8 @@ func (net *Net) MatchWorkClustersToTriggeringTransitions() {
 }
 
 func (workCluster *WorkCluster) checkFire(net *Net) {
-	for {
+	for range workCluster.FireChannel {
 		// Wait for a transition corresponding to the Work Cluster to update its tokens
-		_, ok := <-workCluster.FireChannel
-		if !ok {
-			break
-		}
-
 		var enabledTransitions []string
 
 		for transition := range workCluster.Transitions {

@@ -35,13 +35,16 @@ type Place struct {
 }
 
 type Net struct {
-	Places         map[string]*Place                   // holds number of current tokens
-	Transitions    map[string][]int                    // set of transition nodes -> ids of work clusters they trigger
-	InEdges        map[string][]WeightedTransitionEdge // places -> transitions
-	ReverseInEdges map[string][]WeightedPlaceEdge      // reverse directed graph of InEdges
-	OutEdges       map[string][]WeightedPlaceEdge      // transitions -> places
-	WorkClusters   []WorkCluster
-	ClosingChannel chan struct{}
+	Places            map[string]*Place                   // holds number of current tokens
+	Transitions       map[string][]int                    // set of transition nodes -> ids of work clusters they trigger
+	InEdges           map[string][]WeightedTransitionEdge // places -> transitions
+	ReverseInEdges    map[string][]WeightedPlaceEdge      // reverse directed graph of InEdges
+	OutEdges          map[string][]WeightedPlaceEdge      // transitions -> places
+	WorkClusters      []WorkCluster                       // no. of workclusters = no. of useful threads
+	ClosingChannel    chan struct{}                       // notify net it should close
+	StateGraphChannel chan string                         // used for writting the state graph to a file
+	Timeout           time.Duration                       // maximum total time the net can run for
+	Patience          time.Duration                       // maximum time between transitions
 }
 
 func (net *Net) NewNetFromJson(jsonNet NetJson) {
@@ -65,6 +68,19 @@ func (net *Net) NewNet() {
 	net.ReverseInEdges = make(map[string][]WeightedPlaceEdge)
 	net.OutEdges = make(map[string][]WeightedPlaceEdge)
 	net.ClosingChannel = make(chan struct{})
+	net.StateGraphChannel = make(chan string)
+}
+
+func (net *Net) WriteStateGraph() {
+	for {
+		select {
+		case transition := <-net.StateGraphChannel:
+			fmt.Printf("Fired transition %s\n", transition)
+			// If duration between transitions exceeds 0.1 seconds, close net
+		case <-time.After(100 * time.Millisecond):
+			net.ClosingChannel <- struct{}{}
+		}
+	}
 }
 
 func (net *Net) AddPlace(place string, tokens int) {
@@ -98,10 +114,12 @@ func (net *Net) Run() {
 		go workCluster.checkFire(net)
 		workCluster.FireChannel <- struct{}{}
 	}
-	go net.CloseNet()
+	go net.TimeoutNet()
+	go net.WriteStateGraph()
 }
 
-func (net *Net) CloseNet() {
+func (net *Net) TimeoutNet() {
+	// Maximum time the net can run for
 	<-time.After(5 * time.Second)
 	net.ClosingChannel <- struct{}{}
 }
@@ -117,13 +135,13 @@ func (net *Net) CheckClosingChannel() {
 }
 
 func (net *Net) Fire(transition string) {
-	fmt.Printf("Fired transition %s \n", transition)
 	// remove tokens from incoming places
 	for _, pe := range net.ReverseInEdges[transition] {
 		net.Places[pe.Place].mutex.Lock()
 		net.Places[pe.Place].tokens -= pe.Weight
 		net.Places[pe.Place].mutex.Unlock()
 	}
+	net.StateGraphChannel <- transition
 	// add tokens to outgoing places
 	for _, pe := range net.OutEdges[transition] {
 		net.Places[pe.Place].mutex.Lock()
