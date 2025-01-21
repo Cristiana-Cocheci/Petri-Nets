@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"sort"
 	"sync"
 	"time"
 )
@@ -70,38 +71,53 @@ func (net *Net) NewNet() {
 	net.ReverseInEdges = make(map[string][]WeightedPlaceEdge)
 	net.OutEdges = make(map[string][]WeightedPlaceEdge)
 	net.ClosingChannel = make(chan struct{})
-	net.StateGraphChannel = make(chan string)
+	net.StateGraphChannel = make(chan string, 100)
 	net.Timeout = 5 * time.Second
 	net.Patience = 100 * time.Millisecond
-
 }
 
-func (net *Net) WriteStateGraph() {
-	for {
-		select {
-		case transition := <-net.StateGraphChannel:
-			fmt.Printf("Fired transition %s\n", transition)
-			// If duration between transitions exceeds 0.1 seconds, close net
-		case <-time.After(net.Patience):
-			net.ClosingChannel <- struct{}{}
-		}
-	}
-}
-
-func (net *Net) WriteStateGraphToFile() {
+func (net *Net) WriteStateGraphToFile(initialPlaces map[string]int) {
 	file_path, err := filepath.Abs("./data/state_graph.txt")
 	PrintError(err)
 	_ = os.Remove(file_path)
 	f, err := os.OpenFile(file_path, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	PrintError(err)
+	_, err = f.WriteString("State Graph\n\n|")
+	PrintError(err)
+	// Initialize local places
+	localPlaces := initialPlaces
+	placeNames := make([]string, 0, len(localPlaces))
+	for place := range localPlaces {
+		placeNames = append(placeNames, place)
+	}
+	sort.Strings(placeNames)
+	// Write the initial number of tokens in each place
+	for _, placeName := range placeNames {
+		_, err := f.WriteString(fmt.Sprintf(" %s: %d |", placeName, localPlaces[placeName]))
+		PrintError(err)
+	}
 	// Write state graph to file
 	for {
 		select {
 		case transition := <-net.StateGraphChannel:
-			_, err := f.WriteString(fmt.Sprintf("Fired transition %s\n", transition))
+			_, err := f.WriteString(fmt.Sprintf("\n\nFired transition %s\n\n|", transition))
 			PrintError(err)
+			// Modify the local tokens according to the transition
+			for _, pe := range net.ReverseInEdges[transition] {
+				localPlaces[pe.Place] -= pe.Weight
+			}
+			for _, pe := range net.OutEdges[transition] {
+				localPlaces[pe.Place] += pe.Weight
+			}
+			// Write the number of tokens in each place
+			for _, placeName := range placeNames {
+				_, err := f.WriteString(fmt.Sprintf(" %s: %d |", placeName, localPlaces[placeName]))
+				PrintError(err)
+			}
 		case <-time.After(net.Patience):
 			net.ClosingChannel <- struct{}{}
+			_, err = f.WriteString("\n")
+			PrintError(err)
 			f.Close()
 			return
 		}
@@ -134,13 +150,17 @@ func (net *Net) AddEdge(from string, to string, weight int) {
 
 func (net *Net) Run() {
 	net.SplitNet()
+	initialPlaces := make(map[string]int)
+	for placeName, place := range net.Places {
+		initialPlaces[placeName] = place.tokens
+	}
 	for _, workCluster := range net.WorkClusters {
 		workCluster.PrintWorkCluster()
 		go workCluster.checkFire(net)
 		workCluster.FireChannel <- struct{}{}
 	}
 	go net.TimeoutNet()
-	go net.WriteStateGraphToFile()
+	go net.WriteStateGraphToFile(initialPlaces)
 }
 
 func (net *Net) TimeoutNet() {

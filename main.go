@@ -8,7 +8,7 @@ import (
 func main() {
 	fmt.Println("Petri Nets for Concurrent Programming")
 
-	netJson := src.ReadNetJson("net.json")
+	netJson := src.ReadNetJson("data/net.json")
 
 	net := src.Net{}
 	net.NewNetFromJson(netJson)
