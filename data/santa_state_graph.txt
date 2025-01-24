@@ -1,0 +1,51 @@
+State Graph
+
+| Elf: 12 | Key: 1 | Reindeer: 22 | Santa: 0 |
+
+Fired transition Gate2
+
+| Elf: 9 | Key: 0 | Reindeer: 22 | Santa: 1 |
+
+Fired transition Release
+
+| Elf: 9 | Key: 1 | Reindeer: 22 | Santa: 0 |
+
+Fired transition Gate1
+
+| Elf: 9 | Key: 0 | Reindeer: 13 | Santa: 1 |
+
+Fired transition Release
+
+| Elf: 9 | Key: 1 | Reindeer: 13 | Santa: 0 |
+
+Fired transition Gate2
+
+| Elf: 6 | Key: 0 | Reindeer: 13 | Santa: 1 |
+
+Fired transition Release
+
+| Elf: 6 | Key: 1 | Reindeer: 13 | Santa: 0 |
+
+Fired transition Gate2
+
+| Elf: 3 | Key: 0 | Reindeer: 13 | Santa: 1 |
+
+Fired transition Release
+
+| Elf: 3 | Key: 1 | Reindeer: 13 | Santa: 0 |
+
+Fired transition Gate2
+
+| Elf: 0 | Key: 0 | Reindeer: 13 | Santa: 1 |
+
+Fired transition Release
+
+| Elf: 0 | Key: 1 | Reindeer: 13 | Santa: 0 |
+
+Fired transition Gate1
+
+| Elf: 0 | Key: 0 | Reindeer: 4 | Santa: 1 |
+
+Fired transition Release
+
+| Elf: 0 | Key: 1 | Reindeer: 4 | Santa: 0 |

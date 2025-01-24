@@ -1,0 +1,65 @@
+{
+    "places": [
+        {
+            "name" : "Elf",
+            "tokens" : 12
+        },
+        {
+            "name" : "Reindeer",
+            "tokens" : 22
+        },
+        {
+            "name" : "Key",
+            "tokens" : 1
+        },
+        {
+            "name" : "Santa",
+            "tokens" : 0
+        }
+    ],
+    "transitions" : [
+        "Gate1", "Gate2", "Release"
+    ],
+    "edges" : [
+        {
+            "from" : "Reindeer",
+            "to" : "Gate1",
+            "weight" : 9
+        },
+        {
+            "from" : "Key",
+            "to" : "Gate1",
+            "weight" : 1
+        },
+        {
+            "from" : "Elf",
+            "to" : "Gate2",
+            "weight" : 3
+        },
+        {
+            "from" : "Key",
+            "to" : "Gate2",
+            "weight" : 1
+        },
+        {
+            "from" : "Gate1",
+            "to" : "Santa",
+            "weight" : 1
+        },
+        {
+            "from" : "Gate2",
+            "to" : "Santa",
+            "weight" : 1
+        },
+        {
+            "from" : "Santa",
+            "to" : "Release",
+            "weight" : 1
+        },
+        {
+            "from" : "Release",
+            "to" : "Key",
+            "weight" : 1
+        }
+    ]
+}

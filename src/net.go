@@ -180,6 +180,12 @@ func (net *Net) CheckClosingChannel() {
 }
 
 func (net *Net) Fire(transition string) {
+	defer func() {
+		if recover() != nil {
+			// tried to send on closed channel
+			fmt.Println("Goroutine timeout")
+		}
+	}()
 	// remove tokens from incoming places
 	for _, pe := range net.ReverseInEdges[transition] {
 		net.Places[pe.Place].mutex.Lock()

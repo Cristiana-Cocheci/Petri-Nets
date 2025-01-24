@@ -1,0 +1,79 @@
+{
+    "places": [
+        {
+            "name" : "Res1",
+            "tokens" : 3
+        },
+        {
+            "name" : "Res2",
+            "tokens" : 2
+        },
+        {
+            "name" : "Mutex",
+            "tokens" : 1
+        },
+        {
+            "name" : "P1",
+            "tokens" : 0
+        },
+        {
+            "name" : "P2",
+            "tokens" : 0
+        }
+    ],
+    "transitions" : [
+        "Lock1", "Lock2", "Unlock1", "Unlock2"
+    ],
+    "edges" : [
+        {
+            "from" : "Res1",
+            "to" : "Lock1",
+            "weight" : 1
+        },
+        {
+            "from" : "Res2",
+            "to" : "Lock2",
+            "weight" : 1
+        },
+        {
+            "from" : "Mutex",
+            "to" : "Lock1",
+            "weight" : 1
+        },
+        {
+            "from" : "Mutex",
+            "to" : "Lock2",
+            "weight" : 1
+        },
+        {
+            "from" : "Lock1",
+            "to" : "P1",
+            "weight" : 1
+        },
+        {
+            "from" : "Lock2",
+            "to" : "P2",
+            "weight" : 1
+        },
+        {
+            "from" : "P1",
+            "to" : "Unlock1",
+            "weight" : 1
+        },
+        {
+            "from" : "P2",
+            "to" : "Unlock2",
+            "weight" : 1
+        },
+        {
+            "from" : "Unlock1",
+            "to" : "Mutex",
+            "weight" : 1
+        },
+        {
+            "from" : "Unlock2",
+            "to" :  "Mutex",
+            "weight" : 1
+        }
+    ]
+}

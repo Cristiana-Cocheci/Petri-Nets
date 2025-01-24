@@ -102,6 +102,12 @@ func (net *Net) MatchWorkClustersToTriggeringTransitions() {
 }
 
 func (workCluster *WorkCluster) checkFire(net *Net) {
+	defer func() {
+		if recover() != nil {
+			// tried to send on closed channel
+			fmt.Println("Goroutine timeout")
+		}
+	}()
 	for range workCluster.FireChannel {
 		// Wait for a transition corresponding to the Work Cluster to update its tokens
 		var enabledTransitions []string

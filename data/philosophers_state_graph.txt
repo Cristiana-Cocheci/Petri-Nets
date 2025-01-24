@@ -1,0 +1,1807 @@
+State Graph
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give2
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take2
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give2
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take2
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give2
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take2
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give2
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take2
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give2
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take2
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take2
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give2
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take2
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give2
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take2
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take2
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give2
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take2
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give2
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take2
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take2
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give2
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take3
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give3
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take1
+
+| Fork1: 0 | Fork2: 0 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 2 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give1
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take4
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Take2
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 2 | Phil5: 0 |
+
+Fired transition Give4
+
+| Fork1: 1 | Fork2: 0 | Fork3: 0 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 2 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Give2
+
+| Fork1: 1 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 1 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 0 |
+
+Fired transition Take5
+
+| Fork1: 0 | Fork2: 1 | Fork3: 1 | Fork4: 1 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 0 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Take3
+
+| Fork1: 0 | Fork2: 1 | Fork3: 0 | Fork4: 0 | Fork5: 0 | Phil1: 0 | Phil2: 0 | Phil3: 2 | Phil4: 0 | Phil5: 2 |
+
+Fired transition Give5
+
+| Fork1: 1 | Fork2: 1 | Fork3: 0 | Fork4: 0 |

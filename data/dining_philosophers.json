@@ -1,0 +1,200 @@
+{
+    "places": [
+        {
+            "name" : "Fork1",
+            "tokens" : 1
+        },
+        {
+            "name" : "Fork2",
+            "tokens" : 1
+        },
+        {
+            "name" : "Fork3",
+            "tokens" : 1
+        },
+        {
+            "name" : "Fork4",
+            "tokens" : 1
+        },
+        {
+            "name" : "Fork5",
+            "tokens" : 1
+        },
+        {
+            "name" : "Phil1",
+            "tokens" : 0
+        },
+        {
+            "name" : "Phil2",
+            "tokens" : 0
+        },
+        {
+            "name" : "Phil3",
+            "tokens" : 0
+        },
+        {
+            "name" : "Phil4",
+            "tokens" : 0
+        },
+        {
+            "name" : "Phil5",
+            "tokens" : 0
+        }    
+    ],
+    "transitions" : [
+        "Take1", "Take2", "Take3", "Take4", "Take5",
+        "Give1", "Give2", "Give3", "Give4", "Give5"
+    ],
+    "edges" : [
+        {
+            "from" : "Fork1",
+            "to" : "Take1",
+            "weight" : 1
+        },
+        {
+            "from" : "Fork2",
+            "to" : "Take1",
+            "weight" : 1
+        },
+        {
+            "from" : "Take1",
+            "to" : "Phil1",
+            "weight" : 2
+        },
+        {
+            "from" : "Fork2",
+            "to" : "Take2",
+            "weight" : 1
+        },
+        {
+            "from" : "Fork3",
+            "to" : "Take2",
+            "weight" : 1
+        },
+        {
+            "from" : "Take2",
+            "to" : "Phil2",
+            "weight" : 2
+        },
+        {
+            "from" : "Fork3",
+            "to" : "Take3",
+            "weight" : 1
+        },
+        {
+            "from" : "Fork4",
+            "to" : "Take3",
+            "weight" : 1
+        },
+        {
+            "from" : "Take3",
+            "to" : "Phil3",
+            "weight" : 2
+        },
+        {
+            "from" : "Fork4",
+            "to" : "Take4",
+            "weight" : 1
+        },
+        {
+            "from" : "Fork5",
+            "to" : "Take4",
+            "weight" : 1
+        },
+        {
+            "from" : "Take4",
+            "to" : "Phil4",
+            "weight" : 2
+        },
+        {
+            "from" : "Fork5",
+            "to" : "Take5",
+            "weight" : 1
+        },
+        {
+            "from" : "Fork1",
+            "to" : "Take5",
+            "weight" : 1
+        },
+        {
+            "from" : "Take5",
+            "to" : "Phil5",
+            "weight" : 2
+        },
+        {
+            "from" : "Phil1",
+            "to" : "Give1",
+            "weight" : 2
+        },
+        {
+            "from" : "Give1",
+            "to" : "Fork1",
+            "weight" : 1
+        },
+        {
+            "from" : "Give1",
+            "to" : "Fork2",
+            "weight" : 1
+        },
+        {
+            "from" : "Phil2",
+            "to" : "Give2",
+            "weight" : 2
+        },
+        {
+            "from" : "Give2",
+            "to" : "Fork2",
+            "weight" : 1
+        },
+        {
+            "from" : "Give2",
+            "to" : "Fork3",
+            "weight" : 1
+        },
+        {
+            "from" : "Phil3",
+            "to" : "Give3",
+            "weight" : 2
+        },
+        {
+            "from" : "Give3",
+            "to" : "Fork3",
+            "weight" : 1
+        },
+        {
+            "from" : "Give3",
+            "to" : "Fork4",
+            "weight" : 1
+        },
+        {
+            "from" : "Phil4",
+            "to" : "Give4",
+            "weight" : 2
+        },
+        {
+            "from" : "Give4",
+            "to" : "Fork4",
+            "weight" : 1
+        },
+        {
+            "from" : "Give4",
+            "to" : "Fork5",
+            "weight" : 1
+        },
+        {
+            "from" : "Phil5",
+            "to" : "Give5",
+            "weight" : 2
+        },
+        {
+            "from" : "Give5",
+            "to" : "Fork5",
+            "weight" : 1
+        },
+        {
+            "from" : "Give5",
+            "to" : "Fork1",
+            "weight" : 1
+        }
+    ]
+}
